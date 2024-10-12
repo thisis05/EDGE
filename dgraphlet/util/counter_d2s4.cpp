@@ -323,7 +323,6 @@ FourSizeInfo get4size(CGraph *gout, CGraph *gin, CGraph *gout_2, CGraph *gin_2, 
                     k1 = local_tri1.triend[k1_idx];
                     for (k2_idx = k1_idx+1; k2_idx < local_tri1.count; ++k2_idx){
                         k2 = local_tri1.triend[k2_idx];
-                        local_ret.chord1++;
                         loc2 = gout_2->getEdgeBinary(k1, k2);
                         if(loc2 != -1){local_ret.clique1++;}
                         else{
