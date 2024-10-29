@@ -96,7 +96,7 @@ ThreeSizeInfo get3size_b1(CGraph *g, CGraph *g_2, int num_threads) {
     {
         ThreeSizeInfo local_ret{};
         
-        #pragma omp for schedule(guided)
+        #pragma omp for schedule(dynamic, 64)
         for (VertexIdx i = 0; i < g->nVertices; ++i) {
             const EdgeIdx start = g->offsets[i];
             const EdgeIdx end = g->offsets[i+1];
@@ -206,7 +206,7 @@ ThreeSizeInfo get3size_b2(CGraph *gout, CGraph *gout_2, CGraph *gin, CGraph *gin
     {
         ThreeSizeInfo local_ret{};
         
-        #pragma omp for schedule(guided)
+        #pragma omp for schedule(dynamic, 64)
         for (VertexIdx i = 0; i < gout->nVertices; ++i) {
             const EdgeIdx start = gout->offsets[i];
             const EdgeIdx end = gout->offsets[i+1];
