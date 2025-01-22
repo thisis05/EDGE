@@ -2,6 +2,10 @@
 
 ## Paper Information
 - **Title**: Beyond Neighbors: Distance-Generalized Graphlets for Enhanced Graph Characterization
+- **Venue**: Accepted to WWW 2025
+- **Authors**: Yeongho Kim, Yuyeong Kim, Geon Lee, and Kijung Shin
+- **Affiliation**: KAIST AI
+- **Paper Link**: TBD
 - **Code for**: Algorithm **EDGE** for counting distance-generalized graphlets, i.e., $(d,s)$-graphlets.
 
 ## Datasets
