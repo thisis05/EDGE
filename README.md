@@ -5,7 +5,7 @@
 - **Venue**: Accepted to WWW 2025
 - **Authors**: Yeongho Kim, Yuyeong Kim, Geon Lee, and Kijung Shin
 - **Affiliation**: KAIST AI
-- **Paper Link**: TBD
+- **Paper Link**: https://dl.acm.org/doi/10.1145/3696410.3714558
 - **Code for**: Algorithm **EDGE** for counting distance-generalized graphlets, i.e., $(d,s)$-graphlets.
 
 ## Datasets
@@ -63,4 +63,12 @@ Example command for running the $(2,3)$-graphlet on the ca-HepTh dataset using 6
    ```bash
    ./d2s3.cpp ../data/ca-HepTh.mtx -6
 
+### Citation
 
+If you use this code in your research, please cite:
+
+```@inproceedings{kim2025beyond,
+  title={Beyond Neighbors: Distance-Generalized Graphlets for Enhanced Graph Characterization},
+  author={Kim, Yeongho and Kim, Yuyeong and Lee, Geon and Shin, Kijung},
+  booktitle={THE WEB CONFERENCE 2025}
+}
