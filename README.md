@@ -62,14 +62,17 @@ Here, `n` represents the number of threads you wish to use for processing.
 Example command for running the $(2,3)$-graphlet on the ca-HepTh dataset using 6 threads:
    ```bash
    ./d2s3.cpp ../data/ca-HepTh.mtx -6
+   ```
 
-### Citation
-
+## Citation
 If you use this code in your research, please cite:
 
 ```bibtex
 @inproceedings{kim2025beyond,
-  title={Beyond Neighbors: Distance-Generalized Graphlets for Enhanced Graph Characterization},
-  author={Kim, Yeongho and Kim, Yuyeong and Lee, Geon and Shin, Kijung},
-  booktitle={THE WEB CONFERENCE 2025}
+   title={Beyond Neighbors: Distance-Generalized Graphlets for Enhanced Graph Characterization},
+   author={Kim, Yeongho and Kim, Yuyeong and Lee, Geon and Shin, Kijung},
+   booktitle={THE WEB CONFERENCE 2025},
+   year={2025}
 }
+```
+
