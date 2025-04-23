@@ -67,7 +67,8 @@ Example command for running the $(2,3)$-graphlet on the ca-HepTh dataset using 6
 
 If you use this code in your research, please cite:
 
-```@inproceedings{kim2025beyond,
+```bibtex
+@inproceedings{kim2025beyond,
   title={Beyond Neighbors: Distance-Generalized Graphlets for Enhanced Graph Characterization},
   author={Kim, Yeongho and Kim, Yuyeong and Lee, Geon and Shin, Kijung},
   booktitle={THE WEB CONFERENCE 2025}
